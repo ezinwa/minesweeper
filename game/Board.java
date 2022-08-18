@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 public class Board extends JPanel {
 
     private final int NUM_IMAGES = 13;
-    private final int CELL_SIZE = 15;
+    private final int CELL_SIZE =15;
 
     private final int COVER_FOR_CELL = 10;
     private final int MARK_FOR_CELL = 10;
@@ -54,7 +54,7 @@ public class Board extends JPanel {
         img = new Image[NUM_IMAGES];
 
         for (int i = 0; i < NUM_IMAGES; i++) {
-            var path = "src/resources/" + i + ".png";
+            var path = "C:\\Users\\vincent.odoemelam\\Education\\postJavanista\\minesweeper\\resources\\" + i + ".png";
             img[i] = (new ImageIcon(path)).getImage();
         }
 

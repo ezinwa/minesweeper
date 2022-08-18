@@ -13,7 +13,7 @@ public class Minesweeper extends JFrame {
         add(new Board(status));
         setResizable(false);
         pack();
-        setTitle("Minesweeper");
+        setTitle("MineSweeper");
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
